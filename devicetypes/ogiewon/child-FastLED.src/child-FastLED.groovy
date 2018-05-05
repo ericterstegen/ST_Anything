@@ -51,7 +51,7 @@ metadata {
 	}
 
 	tiles (scale: 2){
-		multiAttributeTile(name:"switch", type: "lighting", width: 6, height: 4, canChangeIcon: true){
+		multiAttributeTile(name:"FastLED", type: "lighting", width: 6, height: 4, canChangeIcon: true){
 			tileAttribute ("device.switch", key: "PRIMARY_CONTROL") {
 				attributeState "on", label:'${name}', action:"switch.off", icon:"st.illuminance.illuminance.bright", backgroundColor:"#00A0DC", nextState:"turningOff"
 				attributeState "off", label:'${name}', action:"switch.on", icon:"st.illuminance.illuminance.dark", backgroundColor:"#ffffff", nextState:"turningOn"
