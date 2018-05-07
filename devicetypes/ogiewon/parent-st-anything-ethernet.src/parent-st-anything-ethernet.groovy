@@ -386,6 +386,9 @@ private void createChildDevice(String deviceName, String deviceNumber) {
          		case "dimmerSwitch": 
                 		deviceHandlerName = "Child Dimmer Switch" 
                 	break
+         		case "fastLED": 
+                		deviceHandlerName = "Child FastLED" 
+                	break
          		case "rgbSwitch": 
                 		deviceHandlerName = "Child RGB Switch" 
                 	break
