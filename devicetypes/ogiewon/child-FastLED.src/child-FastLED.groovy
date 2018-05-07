@@ -42,7 +42,7 @@ metadata {
 	command "magenta"
 	command "orange"
 	command "purple"
-	command "yellow"
+	command "mellow-yellow"
 	command "white"
 	}
 
